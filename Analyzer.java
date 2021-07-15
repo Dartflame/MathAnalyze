@@ -15,6 +15,7 @@ public class Analyzer {
     public static void main(String[] args) {
         Analyzer analyzer = new Analyzer();
         analyzer.recurse("sin(2*(-5+1.5*4)+28)", 0); // Expected output: 0.5 6
+        System.out.println("hei");
     }
 
     public void recurse(String expression, int countOperation) {
